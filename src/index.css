@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{ margin: 0px; padding: 0px; box-sizing: border-box;}
+
+
+.main_div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background-color: #99e77a; */
+    background-color: #dddc90;
+
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.center_div{
+    
+    width: 30%;
+    height: 75%;
+    border-radius: 12px;
+    background-color: #e7e549;
+    box-shadow: 10px 10px  10px rgb(17, 19, 14), 20px 20px 10px greenyellow, 30px 30px 10px red ;
+    
 }
+
+h2{
+    color: rgb(241, 240, 236);
+    background-color: 	#f34b0d;
+
+    margin-bottom: 10px;
+    padding: 5px 0px 2px 0px;
+    text-shadow: 2px 2px 20px  rgb(250, 246, 241);
+
+}
+
+input{
+    height: 28px;
+    width: 55%;
+    top: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid goldenrod;
+}
+
+button{
+    width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    background-color: rgb(112, 103, 103);
+    color: rgb(217, 235, 217);
+    font-size: 35px;
+    border: 1px solid black;
+    outline: none;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: rgb(126, 241, 136);
+    color: rgb(19, 34, 4);
+
+}
+
+ol{
+    margin-top: 28px;
+}
+
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    color: #300e1f;
+    text-transform: capitalize;
+    
+}
+
+@media (max-width: 765px){
+
+    .center_div{width: 50%;}
+
+
+
+button {
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+}
+
+
+

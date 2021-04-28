@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\React-tutorial"
+		},
+		{
+			"path": "..\\digital-watch"
+		},
+		{
+			"path": "..\\todo-list"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React-tutorial"
+	}
+}
